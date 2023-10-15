@@ -33,7 +33,7 @@ class _MoviesScreenState extends State<MoviesScreen> {
               title: const Text('Movies'),
               titleSpacing: 20.w,
               bottom: TabBar(
-                indicatorColor: Colors.transparent,
+                indicatorColor: const Color(0xffF5F5F5),
                 isScrollable: true,
                 onTap: (value) {
                   cubit.pageNumber = value;
